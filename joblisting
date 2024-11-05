@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/css" href="catalog.css"?>
+<CATALOG>
+  <CD>
+    <TITLE>Empire Burlesque</TITLE>
+    <ARTIST>Bob Dylan</ARTIST>
+    <COUNTRY>USA</COUNTRY>
+    <COMPANY>Columbia</COMPANY>
+    <PRICE>10.90</PRICE>
+    <YEAR>1985</YEAR>
+  </CD>
+  <CD>
+    <TITLE>Hide Your Heart</TITLE>
+    <ARTIST>Bonnie Tyler</ARTIST>
+    <COUNTRY>UK</COUNTRY>
+    <COMPANY>CBS</COMPANY>
+    <PRICE>9.90</PRICE>
+    <YEAR>1998</YEAR>
+  </CD>
+</CATALOG>
+/* Apply background color and full width to the catalog */
+CATALOG {
+  background-color: #FFFFFF;
+  width: 100%;
+}
+
+/* Style each CD entry */
+CD {
+  display: block;
+  margin-bottom: 30pt;
+  margin-left: 0;
+}
+
+/* Style the title of the CD */
+TITLE {
+  color: #FF0000;
+  font-size: 20pt;
+}
+
+/* Style the artist's name */
+ARTIST {
+  color: #0000FF;
+  font-size: 20pt;
+}
+
+/* Style the additional information (Country, Price, Year, and Company) */
+COUNTRY,
+PRICE,
+YEAR,
+COMPANY {
+  display: block;
+  color: #000000;
+  margin-left: 20pt;
+}
